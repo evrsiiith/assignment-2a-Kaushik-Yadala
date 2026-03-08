@@ -1,0 +1,25 @@
+{
+  "articles": [
+
+    {
+      "_objectname": "Plane",
+      "shape": "Plane",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "50000",
+        "y": "50000",
+        "z": "50000"
+      }
+    }
+
+  ] 
+}

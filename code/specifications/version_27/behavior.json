@@ -1,0 +1,139 @@
+{
+  "behaviors": [
+    {
+      "id": "DropSphereBehavior",
+      "event": "OnCondition",
+      "actors": ["sphere"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "floating"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "DropSphere",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "ToggleCubeToRed",
+      "event": "OnCondition",
+      "actors": ["color_cube"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "green"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "SetColorRed",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "ToggleCubeToGreen",
+      "event": "OnCondition",
+      "actors": ["color_cube"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "red"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "SetColorGreen",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "InitializeCubeColor",
+      "event": "OnCondition",
+      "actors": ["color_cube"],
+      "precondition": {
+        "runAlgorithm": "NeedsInitialization",
+        "params": { "obj": "Self" }
+      },
+      "action": {
+        "runAlgorithm": "SetColorGreen",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "SlideDoorOpenBehavior",
+      "event": "OnCondition",
+      "actors": ["door"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "closed"] },
+          { "equals": ["color_cube.state", "green"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "SlideDoorOpen",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "SlideDoorClosedBehavior",
+      "event": "OnCondition",
+      "actors": ["door"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "open"] },
+          { "equals": ["color_cube.state", "green"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "SlideDoorClosed",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "CapsuleStartGrab",
+      "event": "OnCondition",
+      "actors": ["Capsule"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "free"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "StartGrab",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "CapsuleDragging",
+      "event": "OnCondition",
+      "actors": ["Capsule"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "grabbed"] },
+          { "runAlgorithm": "IsMouseHeld", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "DragObject",
+        "params": { "obj": "Self" }
+      }
+    },
+    {
+      "id": "CapsuleStopGrab",
+      "event": "OnCondition",
+      "actors": ["Capsule"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "grabbed"] },
+          { "runAlgorithm": "IsMouseReleased", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "StopGrab",
+        "params": { "obj": "Self" }
+      }
+    }
+  ]
+}

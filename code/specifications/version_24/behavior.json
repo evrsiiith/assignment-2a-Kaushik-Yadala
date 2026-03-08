@@ -1,0 +1,19 @@
+{
+  "behaviors": [
+    {
+      "id": "DropSphereBehavior",
+      "event": "OnCondition",
+      "actors": ["sphere"],
+      "precondition": {
+        "all": [
+          { "equals": ["Self.state", "floating"] },
+          { "runAlgorithm": "IsObjectClicked", "params": { "obj": "Self" } }
+        ]
+      },
+      "action": {
+        "runAlgorithm": "DropSphere",
+        "params": { "obj": "Self" }
+      }
+    }
+  ]
+}

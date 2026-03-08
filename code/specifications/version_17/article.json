@@ -1,0 +1,581 @@
+{
+  "articles": [
+    {
+      "_objectname": "ramp",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-1.091",
+        "y": "0.54",
+        "z": "0.64"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "25.3"
+      },
+      "Transform_objectscale": {
+        "x": "3.78",
+        "y": "0.09",
+        "z": "0.5"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "cube_base",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "0.8",
+        "y": "1.34",
+        "z": "0.64"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.411",
+        "y": "0.088",
+        "z": "0.502"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "cube_col",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "0.8000001",
+        "y": "0.56",
+        "z": "0.64"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.19",
+        "y": "1.63",
+        "z": "0.19"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "TableTop",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 1,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "0.04",
+        "y": "0",
+        "z": "0.11"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "10",
+        "y": "0.1",
+        "z": "6.5"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "TableLeg1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 1,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-4.6",
+        "y": "-0.92",
+        "z": "2.88"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.39",
+        "y": "1.8",
+        "z": "0.43"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "TableLeg2",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 1,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-4.6",
+        "y": "-0.92",
+        "z": "-2.88"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.39",
+        "y": "1.8",
+        "z": "0.43"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "TableLeg3",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 1,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "4.6",
+        "y": "-0.92",
+        "z": "-2.88"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.39",
+        "y": "1.8",
+        "z": "0.43"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "TableLeg4",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 1,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "4.6",
+        "y": "-0.92",
+        "z": "2.88"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.39",
+        "y": "1.8",
+        "z": "0.43"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "cube_col_1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-2.37",
+        "y": "0.13",
+        "z": "-1.99"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.19",
+        "y": "0.74",
+        "z": "0.19"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "cube_base_1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-2.37",
+        "y": "0.53",
+        "z": "-1.99"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.411",
+        "y": "0.088",
+        "z": "0.502"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "sphere",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Sphere",
+      "Transform_initialpos": {
+        "x": "0.37",
+        "y": "2.76",
+        "z": "0.63"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.55",
+        "y": "0.55",
+        "z": "0.55"
+      },
+      "XRRigidObject": {
+        "value": "1",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "true",
+        "IsKinematic": "false",
+        "CanInterpolate": "1",
+        "CollisionPolling": "discrete"
+      },
+      "states": [
+        "floating",
+        "rolling"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "color_cube",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-2.37",
+        "y": "0.716",
+        "z": "-1.99"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.28405",
+        "y": "0.28405",
+        "z": "0.28405"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "green",
+        "red"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Plane",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Plane",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "-1.83",
+        "z": "0"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "10",
+        "y": "10",
+        "z": "10"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "states": [
+        "ready"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Capsule",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Capsule",
+      "Transform_initialpos": {
+        "x": "2.222",
+        "y": "0.614",
+        "z": "0.628"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "0.61",
+        "y": "0.61",
+        "z": "0.61"
+      },
+      "XRRigidObject": {
+        "value": "1",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "true",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "discrete"
+      },
+      "states": [
+        "free",
+        "grabbed"
+      ],
+      "context_img_source": null
+    }
+  ]
+}
